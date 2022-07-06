@@ -7419,7 +7419,8 @@ select {
 }
 
 .single-blog {
-  background: #ffffff;
+  /*background: #ffffff;*/
+  background: rgba(76, 175, 80, 0.0)
   box-shadow: 0px 0px 98px 0px rgba(0, 0, 0, 0.07);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
