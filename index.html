@@ -414,126 +414,126 @@ Workspace- Hybrid</p>
             <div class="container">
                 <!-- Brand Wrapper Start -->
                 <div class="brand-wrapper brand-wrapper-2 text-center">
-                    <h3 class="brand-title" style="color:black;" >Our Clients</h3>
+                    <div class="row">
+                    <h1 class="brand-title" style="color:black;" >Our Clients</h1>
+                </div>
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<div id="ourclients">
-  <div class="clients-wrap">
-    <ul id="clientlogo" class="clearfix">
-	  <li>
-        <img src="assets\images\brand\digiflex.png" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\amorepetspa.png" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\c_s.jpg" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\paw_domain.png" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\ase_logo.png" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\cmd.jpg" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\step2cloud.png" alt="Logo">
-      </li>
-      <li>
-        <img src="assets\images\brand\brand-5.png" alt="Logo">
-      </li>
-      <!-- <li>
-        <img src="assets\images\brand\brand-2.png" alt="Logo">
-      </li> -->
-    </ul>
-  </div>
-</div>
-<style>
-#ourclients {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#ourclients .clients-wrap {
-  display: block;
-  width: 95%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-#ourclients .clients-wrap ul {
-  display: block;
-  list-style: none;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-#ourclients .clients-wrap ul li {
-  display: block;
-  float: left;
-  position: relative;
-  width: 220px;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-}
-#ourclients .clients-wrap ul li img {
-  vertical-align: middle;
-  max-width: 100%;
-  width:150px;
-  max-height: 100%;
-  -webkit-transition: 0 linear left;
-  -moz-transition: 0 linear left;
-  transition: 0 linear left;
-}
-#ourclients h3{
-border-bottom:2px solid #3399ff;
-width:150px;
-padding:10px;
-}
-</style>
-<script>
-$(function() {
-  var $clientslider = $('#clientlogo');
-  var clients = $clientslider.children().length;
-  var clientwidth = (clients * 220); 
-  $clientslider.css('width', clientwidth);
-  var rotating = true;
-  var clientspeed = 1800;
-  var seeclients = setInterval(rotateClients, clientspeed);
-  $(document).on({
-    mouseenter: function() {
-      rotating = false;
-    },
-    mouseleave: function() {
-      rotating = true;
-    }
-  }, '#ourclients');
-  function rotateClients() {
-    if (rotating != false) {
-      var $first = $('#clientlogo li:first');
-      $first.animate({
-        'margin-left': '-220px'
-      }, 2000, function() {
-        $first.remove().css({
-          'margin-left': '0px'
-        });
-        $('#clientlogo li:last').after($first);
-      });
-    }
-  }
-});
-</script>                </div>
-                <!-- Brand Wrapper End -->
-            </div>
-        </div>
-        <!-- Brand Logo End -->
-
-		
-
+                        <div id="ourclients">
+                          <div class="clients-wrap">
+                            <ul id="clientlogo" class="clearfix">
+                        	  <li>
+                                <img src="assets\images\brand\digiflex.png" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\amorepetspa.png" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\c_s.jpg" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\paw_domain.png" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\ase_logo.png" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\cmd.jpg" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\step2cloud.png" alt="Logo">
+                              </li>
+                              <li>
+                                <img src="assets\images\brand\brand-5.png" alt="Logo">
+                              </li>
+                              <!-- <li>
+                                <img src="assets\images\brand\brand-2.png" alt="Logo">
+                              </li> -->
+                            </ul>
+                          </div>
+                        </div>
+                        <style>
+                        #ourclients {
+                          display: block;
+                          margin-left: auto;
+                          margin-right: auto;
+                        }
+                        #ourclients .clients-wrap {
+                          display: block;
+                          width: 95%;
+                          margin: 0 auto;
+                          overflow: hidden;
+                        }
+                        #ourclients .clients-wrap ul {
+                          display: block;
+                          list-style: none;
+                          position: relative;
+                          margin-left: auto;
+                          margin-right: auto;
+                        }
+                        #ourclients .clients-wrap ul li {
+                          display: block;
+                          float: left;
+                          position: relative;
+                          width: 220px;
+                          height: 100px;
+                          line-height: 100px;
+                          text-align: center;
+                        }
+                        #ourclients .clients-wrap ul li img {
+                          vertical-align: middle;
+                          max-width: 100%;
+                          width:150px;
+                          max-height: 100%;
+                          -webkit-transition: 0 linear left;
+                          -moz-transition: 0 linear left;
+                          transition: 0 linear left;
+                        }
+                        #ourclients h3{
+                        border-bottom:2px solid #3399ff;
+                        width:150px;
+                        padding:10px;
+                        }
+                        </style>
+                        <script>
+                        $(function() {
+                          var $clientslider = $('#clientlogo');
+                          var clients = $clientslider.children().length;
+                          var clientwidth = (clients * 220); 
+                          $clientslider.css('width', clientwidth);
+                          var rotating = true;
+                          var clientspeed = 1800;
+                          var seeclients = setInterval(rotateClients, clientspeed);
+                          $(document).on({
+                            mouseenter: function() {
+                              rotating = false;
+                            },
+                            mouseleave: function() {
+                              rotating = true;
+                            }
+                          }, '#ourclients');
+                          function rotateClients() {
+                            if (rotating != false) {
+                              var $first = $('#clientlogo li:first');
+                              $first.animate({
+                                'margin-left': '-220px'
+                              }, 2000, function() {
+                                $first.remove().css({
+                                  'margin-left': '0px'
+                                });
+                                $('#clientlogo li:last').after($first);
+                              });
+                            }
+                          }
+                        });
+                        </script>               
+                    </div>
+                    <!-- Brand Wrapper End -->
+                    </div>
+                </div>
+                <!-- Brand Logo End -->
         <!-- Footer Section Start -->
         
- <!-- back to top start -->
+        <!-- back to top start -->
         <div class="progress-wrap">
             <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
                 <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
@@ -590,20 +590,20 @@ $(function() {
 							<div class="widget-link">
 								<ul class="link">
 									<li><a href="Finance.html">Finance</a></li>
-									<li><a href="#">Sales</a></li>
-									<li><a href="#">Human Resources</a></li>
-									<li><a href="#">Inventory & MRP</a></li>
-									<li><a href="#">Marketing</a></li>
+									<li><a href="sales.html">Sales</a></li>
+									<li><a href=human-resources.html>Human Resources</a></li>
+									<li><a href="Inventory-&-MRP.html">Inventory & MRP</a></li>
+									<li><a href="Marketing.html">Marketing</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-lg-6 col-sm-6">
 							<div class="widget-link">
 								<ul class="link">
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Website</a></li>
-									<li><a href="#">Productivity</a></li>
-									<li><a href="#">Customise</a></li>
+									<li><a href="Services.html">Services</a></li>
+									<li><a href="website.html">Website</a></li>
+									<li><a href="Productivity.html">Productivity</a></li>
+									<li><a href="Customise.html">Customise</a></li>
 									<li><a href="ERP-Module.html">ERP Modules</a></li>
 								</ul>
 							</div>
@@ -713,7 +713,7 @@ $(function() {
 		<li><a href="https://www.linkedin.com/in/cloudcode-center-7a5496239/" target="_blank"><img src="assets\images\lin.png" width="60" height="60"></a></li>
 		<li class="twitter"><a href="https://twitter.com/cloudcodecenter?s=11&t=UH1f6vbtghnIvP3-bPp2UA"><img src="assets\images\twi.png" width="60" height="60"></a></li>
 		<li><a href="skype:+919482654956?userinfo" target="_blank"><img src="assets\images\skype.png" width="60" height="60"></a></li>
-		<!--<li class="insta"><a href="#"><img src="assets/images/inta.png" width="60" height="60" style="margin-top: -20px;"></li>-->
+		<li class="insta"><a href="#"><img src="assets/images/inta.png" width="60" height="60" style="margin-top: -20px;"></li>-->
 	<!-- </ul>
 </div> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
