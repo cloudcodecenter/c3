@@ -813,7 +813,7 @@ $(function() {
               <textarea rows="4" name="message"></textarea>
             </div>
             <button type="submit" name="submit">Submit</button> -->
-          <form>
+          <!-- <form> -->
             <iframe
               id="JotFormIFrame-221950914370050"
               title="Get In Touch With Us"
@@ -830,7 +830,7 @@ $(function() {
               scrolling="no"
             >
             </iframe>
-          </form>
+          <!-- </form> -->
         </div>
       </div>
     </div>
