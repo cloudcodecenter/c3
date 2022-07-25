@@ -284,7 +284,7 @@
 
      
 
-		<div class="section blog-section section-padding" style="padding-top: 50px;">
+		<div class="section blog-section mt-5 mb-5" style="padding-top: 50px;">
             <div class="container">
                 <div class="blog-grid-wrap">
                     <div class="row">
